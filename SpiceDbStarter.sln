@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api", "Api\Api.csproj", "{3292FDDA-9D51-42FB-8614-82317623132E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpiceDbClient", "SpiceDbClient\SpiceDbClient.csproj", "{F93375F3-1505-42F5-AEB6-16398EE3677D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3292FDDA-9D51-42FB-8614-82317623132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3292FDDA-9D51-42FB-8614-82317623132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3292FDDA-9D51-42FB-8614-82317623132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3292FDDA-9D51-42FB-8614-82317623132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F93375F3-1505-42F5-AEB6-16398EE3677D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F93375F3-1505-42F5-AEB6-16398EE3677D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F93375F3-1505-42F5-AEB6-16398EE3677D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F93375F3-1505-42F5-AEB6-16398EE3677D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
