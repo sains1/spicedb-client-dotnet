@@ -44,7 +44,7 @@ dotnet run --project Api
 3. Replace the dependency commit ids in the command below with those from the lockfile
 
 ```bash
-buf generate buf.build/authzed/api --path authzed/api/v1/ -o ./SpiceDbClient/generated/authzed.api
+buf generate buf.build/authzed/api:v1.22.2 --path authzed/api/v1/ -o ./SpiceDbClient/generated/authzed.api
 
 buf generate buf.build/envoyproxy/protoc-gen-validate:45685e052c7e406b9fbd441fc7a568a5 \
     -o ./SpiceDbClient/generated/envoyproxy.protoc-gen-validate
