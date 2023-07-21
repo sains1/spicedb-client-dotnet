@@ -1,11 +1,10 @@
 name: Generate SpiceDB nuget package
 
 on:
-  workflow_dispatch:
-    inputs:
-      client_version:
-        description: "Version number for the client"
-        required: true
+  workflow_dispatch: {}
+
+env:
+  client_version: '1.22.2'
 
 jobs:
   generate-csharp-client:
