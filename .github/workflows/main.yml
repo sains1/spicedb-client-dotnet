@@ -19,7 +19,7 @@ jobs:
         
       - name: Package
         run: |
-          dotnet pack ./SpiceDbClient/SpiceDbClient.csproj --configuration Release --output ${{github.workspace}}/NuGet
+          dotnet pack ./SpiceDbClient/SpiceDbClient.csproj --configuration Release --output ${{github.workspace}}/NuGet /p:Version=$client_version
       
 #       - name: Login
 #         run: dotnet nuget add source --username ${{ github.actor }} --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name GH "https://nuget.pkg.github.com/sains1/index.json"
