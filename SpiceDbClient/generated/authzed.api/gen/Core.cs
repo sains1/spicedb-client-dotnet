@@ -98,6 +98,7 @@ namespace Authzed.Api.V1 {
   /// form the data for the graph over which all permissions questions are
   /// answered.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Relationship : pb::IMessage<Relationship>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -442,6 +443,7 @@ namespace Authzed.Api.V1 {
   /// The context consists of key-value pairs that will be injected at evaluation time.
   /// The keys must match the arguments defined on the caveat in the schema.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ContextualizedCaveat : pb::IMessage<ContextualizedCaveat>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -688,6 +690,7 @@ namespace Authzed.Api.V1 {
   /// Relationship. The relation component is optional and is used for defining a
   /// sub-relation on the subject, e.g. group:123#members
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class SubjectReference : pb::IMessage<SubjectReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -926,6 +929,7 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ObjectReference is used to refer to a specific object in the system.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ObjectReference : pb::IMessage<ObjectReference>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1158,6 +1162,7 @@ namespace Authzed.Api.V1 {
   ///
   /// See the authzed.api.v1.Consistency message for more information.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ZedToken : pb::IMessage<ZedToken>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1351,6 +1356,7 @@ namespace Authzed.Api.V1 {
   /// Cursor is used to provide resumption of listing between calls to APIs
   /// such as LookupResources.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class Cursor : pb::IMessage<Cursor>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1553,6 +1559,7 @@ namespace Authzed.Api.V1 {
   /// DELETE will delete the relationship. If the relationship does not exist,
   /// this operation will no-op.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class RelationshipUpdate : pb::IMessage<RelationshipUpdate>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -1807,6 +1814,7 @@ namespace Authzed.Api.V1 {
   /// PermissionRelationshipTree is used for representing a tree of a resource and
   /// its permission relationships with other objects.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PermissionRelationshipTree : pb::IMessage<PermissionRelationshipTree>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2187,6 +2195,7 @@ namespace Authzed.Api.V1 {
   /// EXCLUSION is a logical set containing only the subject members which are
   /// present in the first operand, and none of the other operands.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class AlgebraicSubjectSet : pb::IMessage<AlgebraicSubjectSet>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2420,6 +2429,7 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// DirectSubjectSet is a subject set which is simply a collection of subjects.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DirectSubjectSet : pb::IMessage<DirectSubjectSet>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -2602,6 +2612,7 @@ namespace Authzed.Api.V1 {
   /// PartialCaveatInfo carries information necessary for the client to take action
   /// in the event a response contains a partially evaluated caveat
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class PartialCaveatInfo : pb::IMessage<PartialCaveatInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

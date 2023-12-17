@@ -44,12 +44,12 @@ namespace Authzed.Api.V1 {
             "aW1lbnRhbFNlcnZpY2USsgEKF0J1bGtJbXBvcnRSZWxhdGlvbnNoaXBzEi4u",
             "YXV0aHplZC5hcGkudjEuQnVsa0ltcG9ydFJlbGF0aW9uc2hpcHNSZXF1ZXN0",
             "Gi8uYXV0aHplZC5hcGkudjEuQnVsa0ltcG9ydFJlbGF0aW9uc2hpcHNSZXNw",
-            "b25zZSI0gtPkkwIuOgEqIikvdjEvZXhwZXJpbWVudGFsL3JlbGF0aW9uc2hp",
-            "cHMvYnVsa2ltcG9ydCgBErIBChdCdWxrRXhwb3J0UmVsYXRpb25zaGlwcxIu",
+            "b25zZSI0gtPkkwIuIikvdjEvZXhwZXJpbWVudGFsL3JlbGF0aW9uc2hpcHMv",
+            "YnVsa2ltcG9ydDoBKigBErIBChdCdWxrRXhwb3J0UmVsYXRpb25zaGlwcxIu",
             "LmF1dGh6ZWQuYXBpLnYxLkJ1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVxdWVz",
             "dBovLmF1dGh6ZWQuYXBpLnYxLkJ1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVz",
-            "cG9uc2UiNILT5JMCLjoBKiIpL3YxL2V4cGVyaW1lbnRhbC9yZWxhdGlvbnNo",
-            "aXBzL2J1bGtleHBvcnQwAUJIChJjb20uYXV0aHplZC5hcGkudjFaMmdpdGh1",
+            "cG9uc2UiNILT5JMCLiIpL3YxL2V4cGVyaW1lbnRhbC9yZWxhdGlvbnNoaXBz",
+            "L2J1bGtleHBvcnQ6ASowAUJIChJjb20uYXV0aHplZC5hcGkudjFaMmdpdGh1",
             "Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3Yx",
             "YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -71,6 +71,7 @@ namespace Authzed.Api.V1 {
   /// datastore, and optimal size should be determined by the calling client
   /// experimentally.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkImportRelationshipsRequest : pb::IMessage<BulkImportRelationshipsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -253,6 +254,7 @@ namespace Authzed.Api.V1 {
   /// BulkImportRelationshipsResponse is returned on successful completion of the
   /// bulk load stream, and contains the total number of relationships loaded.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkImportRelationshipsResponse : pb::IMessage<BulkImportRelationshipsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -446,6 +448,7 @@ namespace Authzed.Api.V1 {
   /// BulkExportRelationshipsRequest represents a resumable request for
   /// all relationships from the server.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkExportRelationshipsRequest : pb::IMessage<BulkExportRelationshipsRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -744,6 +747,7 @@ namespace Authzed.Api.V1 {
   /// server will continue to stream back relationship groups as quickly as it can
   /// until all relationships have been transmitted back.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class BulkExportRelationshipsResponse : pb::IMessage<BulkExportRelationshipsResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

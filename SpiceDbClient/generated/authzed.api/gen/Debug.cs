@@ -82,6 +82,7 @@ namespace Authzed.Api.V1 {
   ///
   /// See the github.com/authzed/authzed-go project for the specific header and footer names.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DebugInformation : pb::IMessage<DebugInformation>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -327,6 +328,7 @@ namespace Authzed.Api.V1 {
   /// CheckDebugTrace is a recursive trace of the requests made for resolving a CheckPermission
   /// API call.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CheckDebugTrace : pb::IMessage<CheckDebugTrace>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -904,6 +906,7 @@ namespace Authzed.Api.V1 {
         [pbr::OriginalName("PERMISSIONSHIP_CONDITIONAL_PERMISSION")] ConditionalPermission = 3,
       }
 
+      [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
       public sealed partial class SubProblems : pb::IMessage<SubProblems>
       #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
           , pb::IBufferMessage
@@ -1090,6 +1093,7 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// CaveatEvalInfo holds information about a caveat expression that was evaluated.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class CaveatEvalInfo : pb::IMessage<CaveatEvalInfo>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

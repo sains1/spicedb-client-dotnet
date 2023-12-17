@@ -37,7 +37,7 @@ namespace Authzed.Api.V1 {
             "bmdlc190aHJvdWdoGAIgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5S",
             "DmNoYW5nZXNUaHJvdWdoMmwKDFdhdGNoU2VydmljZRJcCgVXYXRjaBIcLmF1",
             "dGh6ZWQuYXBpLnYxLldhdGNoUmVxdWVzdBodLmF1dGh6ZWQuYXBpLnYxLldh",
-            "dGNoUmVzcG9uc2UiFILT5JMCDjoBKiIJL3YxL3dhdGNoMAFCSAoSY29tLmF1",
+            "dGNoUmVzcG9uc2UiFILT5JMCDiIJL3YxL3dhdGNoOgEqMAFCSAoSY29tLmF1",
             "dGh6ZWQuYXBpLnYxWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1nby9w",
             "cm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -56,6 +56,7 @@ namespace Authzed.Api.V1 {
   /// watching mutations, and an optional start snapshot for when to start
   /// watching.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchRequest : pb::IMessage<WatchRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -295,6 +296,7 @@ namespace Authzed.Api.V1 {
   /// encoded in the watch response. The client can use the snapshot to resume
   /// watching where the previous watch response left off.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WatchResponse : pb::IMessage<WatchResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

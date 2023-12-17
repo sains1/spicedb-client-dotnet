@@ -35,10 +35,10 @@ namespace Authzed.Api.V1 {
             "dGVuX2F0GAEgASgLMhguYXV0aHplZC5hcGkudjEuWmVkVG9rZW5CCPpCBYoB",
             "AhABUgl3cml0dGVuQXQy9QEKDVNjaGVtYVNlcnZpY2USbwoKUmVhZFNjaGVt",
             "YRIhLmF1dGh6ZWQuYXBpLnYxLlJlYWRTY2hlbWFSZXF1ZXN0GiIuYXV0aHpl",
-            "ZC5hcGkudjEuUmVhZFNjaGVtYVJlc3BvbnNlIhqC0+STAhQ6ASoiDy92MS9z",
-            "Y2hlbWEvcmVhZBJzCgtXcml0ZVNjaGVtYRIiLmF1dGh6ZWQuYXBpLnYxLldy",
+            "ZC5hcGkudjEuUmVhZFNjaGVtYVJlc3BvbnNlIhqC0+STAhQiDy92MS9zY2hl",
+            "bWEvcmVhZDoBKhJzCgtXcml0ZVNjaGVtYRIiLmF1dGh6ZWQuYXBpLnYxLldy",
             "aXRlU2NoZW1hUmVxdWVzdBojLmF1dGh6ZWQuYXBpLnYxLldyaXRlU2NoZW1h",
-            "UmVzcG9uc2UiG4LT5JMCFToBKiIQL3YxL3NjaGVtYS93cml0ZUJIChJjb20u",
+            "UmVzcG9uc2UiG4LT5JMCFSIQL3YxL3NjaGVtYS93cml0ZToBKkJIChJjb20u",
             "YXV0aHplZC5hcGkudjFaMmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVkLWdv",
             "L3Byb3RvL2F1dGh6ZWQvYXBpL3YxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
@@ -57,6 +57,7 @@ namespace Authzed.Api.V1 {
   /// <summary>
   /// ReadSchemaRequest returns the schema from the database.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadSchemaRequest : pb::IMessage<ReadSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -213,6 +214,7 @@ namespace Authzed.Api.V1 {
   /// ReadSchemaResponse is the resulting data after having read the Object
   /// Definitions from a Schema.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class ReadSchemaResponse : pb::IMessage<ReadSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -458,6 +460,7 @@ namespace Authzed.Api.V1 {
   /// WriteSchemaRequest is the required data used to "upsert" the Schema of a
   /// Permissions System.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WriteSchemaRequest : pb::IMessage<WriteSchemaRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage
@@ -655,6 +658,7 @@ namespace Authzed.Api.V1 {
   /// WriteSchemaResponse is the resulting data after having written a Schema to
   /// a Permissions System.
   /// </summary>
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class WriteSchemaResponse : pb::IMessage<WriteSchemaResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
       , pb::IBufferMessage

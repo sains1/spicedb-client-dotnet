@@ -1,9 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <IsPackable>true</IsPackable>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <PackageId>sains1.SpiceDbClient</PackageId>
+    <PackageVersion>1.22.2</PackageVersion>
+    <PackageTags>spicedb</PackageTags>
+    <Description>SpiceDB grpc client</Description>
+    <RepositoryUrl>https://github.com/sains1/spicedb-client-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
