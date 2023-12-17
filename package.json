@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "SpiceDB Client for .NET generated from authzed protobuf definitions",
   "scripts": {
-    "generate": "cross-env AUTHZED_VERSION=\"v1.22.2\" PROTOC_GEN_VALIDATE_VERSION=\"45685e052c7e406b9fbd441fc7a568a5\" GOOGLE_VERSION=\"62f35d8aed1149c291d606d958a7ce32\" GRPC_GATEWAY_VERSION=\"bc28b723cd774c32b6fbc77621518765\" npm run generate:all && dotnet format",
+    "generate": "cross-env AUTHZED_VERSION=\"v1.25.0\" PROTOC_GEN_VALIDATE_VERSION=\"45685e052c7e406b9fbd441fc7a568a5\" GOOGLE_VERSION=\"62f35d8aed1149c291d606d958a7ce32\" GRPC_GATEWAY_VERSION=\"bc28b723cd774c32b6fbc77621518765\" npm run generate:all && dotnet format",
     "generate:all": "npm run generate:authzed && npm run generate:protocgenvalidate && npm run generate:googleapis && npm run generate:grpcgateway",
     "generate:authzed": "cross-env-shell buf generate buf.build/authzed/api:$AUTHZED_VERSION --path authzed/api/v1/ -o ./SpiceDbClient/generated/authzed.api",
     "generate:protocgenvalidate": "cross-env-shell buf generate buf.build/envoyproxy/protoc-gen-validate:$PROTOC_GEN_VALIDATE_VERSION -o ./SpiceDbClient/generated/envoyproxy.protoc-gen-validate",
-    "generate:googleapis": "cross-env-shell buf generate buf.build/googleapis/googleapis:$GOOGLE_VERSION --path google/api/annotations.proto --path google/api/http.proto -o ./SpiceDbClient/generated/googleapis.googleapis",
+    "generate:googleapis": "cross-env-shell buf generate buf.build/googleapis/googleapis:$GOOGLE_VERSION --path google/api/annotations.proto --path google/api/http.proto --path google/rpc/status.proto -o ./SpiceDbClient/generated/googleapis.googleapis",
     "generate:grpcgateway": "cross-env-shell buf generate buf.build/grpc-ecosystem/grpc-gateway:$GRPC_GATEWAY_VERSION -o ./SpiceDbClient/generated/grpc-ecosystem.grpc-gateway"
   },
   "author": "",

@@ -26,47 +26,49 @@ namespace Authzed.Api.V1 {
           string.Concat(
             "ChphdXRoemVkL2FwaS92MS9kZWJ1Zy5wcm90bxIOYXV0aHplZC5hcGkudjEa",
             "GWF1dGh6ZWQvYXBpL3YxL2NvcmUucHJvdG8aF3ZhbGlkYXRlL3ZhbGlkYXRl",
-            "LnByb3RvGhxnb29nbGUvcHJvdG9idWYvc3RydWN0LnByb3RvImoKEERlYnVn",
-            "SW5mb3JtYXRpb24SNQoFY2hlY2sYASABKAsyHy5hdXRoemVkLmFwaS52MS5D",
-            "aGVja0RlYnVnVHJhY2VSBWNoZWNrEh8KC3NjaGVtYV91c2VkGAIgASgJUgpz",
-            "Y2hlbWFVc2VkIrwHCg9DaGVja0RlYnVnVHJhY2USRQoIcmVzb3VyY2UYASAB",
-            "KAsyHy5hdXRoemVkLmFwaS52MS5PYmplY3RSZWZlcmVuY2VCCPpCBYoBAhAB",
-            "UghyZXNvdXJjZRIeCgpwZXJtaXNzaW9uGAIgASgJUgpwZXJtaXNzaW9uEmMK",
-            "D3Blcm1pc3Npb25fdHlwZRgDIAEoDjIuLmF1dGh6ZWQuYXBpLnYxLkNoZWNr",
-            "RGVidWdUcmFjZS5QZXJtaXNzaW9uVHlwZUIK+kIHggEEEAEgAFIOcGVybWlz",
-            "c2lvblR5cGUSRAoHc3ViamVjdBgEIAEoCzIgLmF1dGh6ZWQuYXBpLnYxLlN1",
-            "YmplY3RSZWZlcmVuY2VCCPpCBYoBAhABUgdzdWJqZWN0ElIKBnJlc3VsdBgF",
-            "IAEoDjIuLmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZS5QZXJtaXNz",
-            "aW9uc2hpcEIK+kIHggEEEAEgAFIGcmVzdWx0ElQKFmNhdmVhdF9ldmFsdWF0",
-            "aW9uX2luZm8YCCABKAsyHi5hdXRoemVkLmFwaS52MS5DYXZlYXRFdmFsSW5m",
-            "b1IUY2F2ZWF0RXZhbHVhdGlvbkluZm8SLAoRd2FzX2NhY2hlZF9yZXN1bHQY",
-            "BiABKAhIAFIPd2FzQ2FjaGVkUmVzdWx0ElAKDHN1Yl9wcm9ibGVtcxgHIAEo",
-            "CzIrLmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZS5TdWJQcm9ibGVt",
-            "c0gAUgtzdWJQcm9ibGVtcxpGCgtTdWJQcm9ibGVtcxI3CgZ0cmFjZXMYASAD",
-            "KAsyHy5hdXRoemVkLmFwaS52MS5DaGVja0RlYnVnVHJhY2VSBnRyYWNlcyJv",
-            "Cg5QZXJtaXNzaW9uVHlwZRIfChtQRVJNSVNTSU9OX1RZUEVfVU5TUEVDSUZJ",
-            "RUQQABIcChhQRVJNSVNTSU9OX1RZUEVfUkVMQVRJT04QARIeChpQRVJNSVNT",
-            "SU9OX1RZUEVfUEVSTUlTU0lPThACIqABCg5QZXJtaXNzaW9uc2hpcBIeChpQ",
-            "RVJNSVNTSU9OU0hJUF9VTlNQRUNJRklFRBAAEiAKHFBFUk1JU1NJT05TSElQ",
-            "X05PX1BFUk1JU1NJT04QARIhCh1QRVJNSVNTSU9OU0hJUF9IQVNfUEVSTUlT",
-            "U0lPThACEikKJVBFUk1JU1NJT05TSElQX0NPTkRJVElPTkFMX1BFUk1JU1NJ",
-            "T04QA0IRCgpyZXNvbHV0aW9uEgP4QgEilAMKDkNhdmVhdEV2YWxJbmZvEh4K",
-            "CmV4cHJlc3Npb24YASABKAlSCmV4cHJlc3Npb24SPQoGcmVzdWx0GAIgASgO",
-            "MiUuYXV0aHplZC5hcGkudjEuQ2F2ZWF0RXZhbEluZm8uUmVzdWx0UgZyZXN1",
-            "bHQSMQoHY29udGV4dBgDIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RS",
-            "B2NvbnRleHQSUQoTcGFydGlhbF9jYXZlYXRfaW5mbxgEIAEoCzIhLmF1dGh6",
-            "ZWQuYXBpLnYxLlBhcnRpYWxDYXZlYXRJbmZvUhFwYXJ0aWFsQ2F2ZWF0SW5m",
-            "bxIfCgtjYXZlYXRfbmFtZRgFIAEoCVIKY2F2ZWF0TmFtZSJ8CgZSZXN1bHQS",
-            "FgoSUkVTVUxUX1VOU1BFQ0lGSUVEEAASFgoSUkVTVUxUX1VORVZBTFVBVEVE",
-            "EAESEAoMUkVTVUxUX0ZBTFNFEAISDwoLUkVTVUxUX1RSVUUQAxIfChtSRVNV",
-            "TFRfTUlTU0lOR19TT01FX0NPTlRFWFQQBEJIChJjb20uYXV0aHplZC5hcGku",
-            "djFaMmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6",
-            "ZWQvYXBpL3YxYgZwcm90bzM="));
+            "LnByb3RvGhxnb29nbGUvcHJvdG9idWYvc3RydWN0LnByb3RvGh5nb29nbGUv",
+            "cHJvdG9idWYvZHVyYXRpb24ucHJvdG8iagoQRGVidWdJbmZvcm1hdGlvbhI1",
+            "CgVjaGVjaxgBIAEoCzIfLmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFj",
+            "ZVIFY2hlY2sSHwoLc2NoZW1hX3VzZWQYAiABKAlSCnNjaGVtYVVzZWQi8wcK",
+            "D0NoZWNrRGVidWdUcmFjZRJFCghyZXNvdXJjZRgBIAEoCzIfLmF1dGh6ZWQu",
+            "YXBpLnYxLk9iamVjdFJlZmVyZW5jZUII+kIFigECEAFSCHJlc291cmNlEh4K",
+            "CnBlcm1pc3Npb24YAiABKAlSCnBlcm1pc3Npb24SYwoPcGVybWlzc2lvbl90",
+            "eXBlGAMgASgOMi4uYXV0aHplZC5hcGkudjEuQ2hlY2tEZWJ1Z1RyYWNlLlBl",
+            "cm1pc3Npb25UeXBlQgr6QgeCAQQQASAAUg5wZXJtaXNzaW9uVHlwZRJECgdz",
+            "dWJqZWN0GAQgASgLMiAuYXV0aHplZC5hcGkudjEuU3ViamVjdFJlZmVyZW5j",
+            "ZUII+kIFigECEAFSB3N1YmplY3QSUgoGcmVzdWx0GAUgASgOMi4uYXV0aHpl",
+            "ZC5hcGkudjEuQ2hlY2tEZWJ1Z1RyYWNlLlBlcm1pc3Npb25zaGlwQgr6QgeC",
+            "AQQQASAAUgZyZXN1bHQSVAoWY2F2ZWF0X2V2YWx1YXRpb25faW5mbxgIIAEo",
+            "CzIeLmF1dGh6ZWQuYXBpLnYxLkNhdmVhdEV2YWxJbmZvUhRjYXZlYXRFdmFs",
+            "dWF0aW9uSW5mbxI1CghkdXJhdGlvbhgJIAEoCzIZLmdvb2dsZS5wcm90b2J1",
+            "Zi5EdXJhdGlvblIIZHVyYXRpb24SLAoRd2FzX2NhY2hlZF9yZXN1bHQYBiAB",
+            "KAhIAFIPd2FzQ2FjaGVkUmVzdWx0ElAKDHN1Yl9wcm9ibGVtcxgHIAEoCzIr",
+            "LmF1dGh6ZWQuYXBpLnYxLkNoZWNrRGVidWdUcmFjZS5TdWJQcm9ibGVtc0gA",
+            "UgtzdWJQcm9ibGVtcxpGCgtTdWJQcm9ibGVtcxI3CgZ0cmFjZXMYASADKAsy",
+            "Hy5hdXRoemVkLmFwaS52MS5DaGVja0RlYnVnVHJhY2VSBnRyYWNlcyJvCg5Q",
+            "ZXJtaXNzaW9uVHlwZRIfChtQRVJNSVNTSU9OX1RZUEVfVU5TUEVDSUZJRUQQ",
+            "ABIcChhQRVJNSVNTSU9OX1RZUEVfUkVMQVRJT04QARIeChpQRVJNSVNTSU9O",
+            "X1RZUEVfUEVSTUlTU0lPThACIqABCg5QZXJtaXNzaW9uc2hpcBIeChpQRVJN",
+            "SVNTSU9OU0hJUF9VTlNQRUNJRklFRBAAEiAKHFBFUk1JU1NJT05TSElQX05P",
+            "X1BFUk1JU1NJT04QARIhCh1QRVJNSVNTSU9OU0hJUF9IQVNfUEVSTUlTU0lP",
+            "ThACEikKJVBFUk1JU1NJT05TSElQX0NPTkRJVElPTkFMX1BFUk1JU1NJT04Q",
+            "A0IRCgpyZXNvbHV0aW9uEgP4QgEilAMKDkNhdmVhdEV2YWxJbmZvEh4KCmV4",
+            "cHJlc3Npb24YASABKAlSCmV4cHJlc3Npb24SPQoGcmVzdWx0GAIgASgOMiUu",
+            "YXV0aHplZC5hcGkudjEuQ2F2ZWF0RXZhbEluZm8uUmVzdWx0UgZyZXN1bHQS",
+            "MQoHY29udGV4dBgDIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RSB2Nv",
+            "bnRleHQSUQoTcGFydGlhbF9jYXZlYXRfaW5mbxgEIAEoCzIhLmF1dGh6ZWQu",
+            "YXBpLnYxLlBhcnRpYWxDYXZlYXRJbmZvUhFwYXJ0aWFsQ2F2ZWF0SW5mbxIf",
+            "CgtjYXZlYXRfbmFtZRgFIAEoCVIKY2F2ZWF0TmFtZSJ8CgZSZXN1bHQSFgoS",
+            "UkVTVUxUX1VOU1BFQ0lGSUVEEAASFgoSUkVTVUxUX1VORVZBTFVBVEVEEAES",
+            "EAoMUkVTVUxUX0ZBTFNFEAISDwoLUkVTVUxUX1RSVUUQAxIfChtSRVNVTFRf",
+            "TUlTU0lOR19TT01FX0NPTlRFWFQQBEJIChJjb20uYXV0aHplZC5hcGkudjFa",
+            "MmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQv",
+            "YXBpL3YxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Authzed.Api.V1.CoreReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.DebugInformation), global::Authzed.Api.V1.DebugInformation.Parser, new[]{ "Check", "SchemaUsed" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace), global::Authzed.Api.V1.CheckDebugTrace.Parser, new[]{ "Resource", "Permission", "PermissionType", "Subject", "Result", "CaveatEvaluationInfo", "WasCachedResult", "SubProblems" }, new[]{ "Resolution" }, new[]{ typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.PermissionType), typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems), global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems.Parser, new[]{ "Traces" }, null, null, null, null)}),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace), global::Authzed.Api.V1.CheckDebugTrace.Parser, new[]{ "Resource", "Permission", "PermissionType", "Subject", "Result", "CaveatEvaluationInfo", "Duration", "WasCachedResult", "SubProblems" }, new[]{ "Resolution" }, new[]{ typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.PermissionType), typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship) }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems), global::Authzed.Api.V1.CheckDebugTrace.Types.SubProblems.Parser, new[]{ "Traces" }, null, null, null, null)}),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.CaveatEvalInfo), global::Authzed.Api.V1.CaveatEvalInfo.Parser, new[]{ "Expression", "Result", "Context", "PartialCaveatInfo", "CaveatName" }, null, new[]{ typeof(global::Authzed.Api.V1.CaveatEvalInfo.Types.Result) }, null, null)
           }));
     }
@@ -369,6 +371,7 @@ namespace Authzed.Api.V1 {
       subject_ = other.subject_ != null ? other.subject_.Clone() : null;
       result_ = other.result_;
       caveatEvaluationInfo_ = other.caveatEvaluationInfo_ != null ? other.caveatEvaluationInfo_.Clone() : null;
+      duration_ = other.duration_ != null ? other.duration_.Clone() : null;
       switch (other.ResolutionCase) {
         case ResolutionOneofCase.WasCachedResult:
           WasCachedResult = other.WasCachedResult;
@@ -478,6 +481,21 @@ namespace Authzed.Api.V1 {
       }
     }
 
+    /// <summary>Field number for the "duration" field.</summary>
+    public const int DurationFieldNumber = 9;
+    private global::Google.Protobuf.WellKnownTypes.Duration duration_;
+    /// <summary>
+    /// duration holds the time spent executing this Check operation.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Duration Duration {
+      get { return duration_; }
+      set {
+        duration_ = value;
+      }
+    }
+
     /// <summary>Field number for the "was_cached_result" field.</summary>
     public const int WasCachedResultFieldNumber = 6;
     /// <summary>
@@ -565,6 +583,7 @@ namespace Authzed.Api.V1 {
       if (!object.Equals(Subject, other.Subject)) return false;
       if (Result != other.Result) return false;
       if (!object.Equals(CaveatEvaluationInfo, other.CaveatEvaluationInfo)) return false;
+      if (!object.Equals(Duration, other.Duration)) return false;
       if (WasCachedResult != other.WasCachedResult) return false;
       if (!object.Equals(SubProblems, other.SubProblems)) return false;
       if (ResolutionCase != other.ResolutionCase) return false;
@@ -581,6 +600,7 @@ namespace Authzed.Api.V1 {
       if (subject_ != null) hash ^= Subject.GetHashCode();
       if (Result != global::Authzed.Api.V1.CheckDebugTrace.Types.Permissionship.Unspecified) hash ^= Result.GetHashCode();
       if (caveatEvaluationInfo_ != null) hash ^= CaveatEvaluationInfo.GetHashCode();
+      if (duration_ != null) hash ^= Duration.GetHashCode();
       if (HasWasCachedResult) hash ^= WasCachedResult.GetHashCode();
       if (resolutionCase_ == ResolutionOneofCase.SubProblems) hash ^= SubProblems.GetHashCode();
       hash ^= (int) resolutionCase_;
@@ -634,6 +654,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(CaveatEvaluationInfo);
       }
+      if (duration_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Duration);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -676,6 +700,10 @@ namespace Authzed.Api.V1 {
         output.WriteRawTag(66);
         output.WriteMessage(CaveatEvaluationInfo);
       }
+      if (duration_ != null) {
+        output.WriteRawTag(74);
+        output.WriteMessage(Duration);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(ref output);
       }
@@ -703,6 +731,9 @@ namespace Authzed.Api.V1 {
       }
       if (caveatEvaluationInfo_ != null) {
         size += 1 + pb::CodedOutputStream.ComputeMessageSize(CaveatEvaluationInfo);
+      }
+      if (duration_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Duration);
       }
       if (HasWasCachedResult) {
         size += 1 + 1;
@@ -748,6 +779,12 @@ namespace Authzed.Api.V1 {
           CaveatEvaluationInfo = new global::Authzed.Api.V1.CaveatEvalInfo();
         }
         CaveatEvaluationInfo.MergeFrom(other.CaveatEvaluationInfo);
+      }
+      if (other.duration_ != null) {
+        if (duration_ == null) {
+          Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
+        }
+        Duration.MergeFrom(other.Duration);
       }
       switch (other.ResolutionCase) {
         case ResolutionOneofCase.WasCachedResult:
@@ -822,6 +859,13 @@ namespace Authzed.Api.V1 {
             input.ReadMessage(CaveatEvaluationInfo);
             break;
           }
+          case 74: {
+            if (duration_ == null) {
+              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(Duration);
+            break;
+          }
         }
       }
     #endif
@@ -881,6 +925,13 @@ namespace Authzed.Api.V1 {
               CaveatEvaluationInfo = new global::Authzed.Api.V1.CaveatEvalInfo();
             }
             input.ReadMessage(CaveatEvaluationInfo);
+            break;
+          }
+          case 74: {
+            if (duration_ == null) {
+              Duration = new global::Google.Protobuf.WellKnownTypes.Duration();
+            }
+            input.ReadMessage(Duration);
             break;
           }
         }

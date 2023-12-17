@@ -25,7 +25,7 @@ namespace Authzed.Api.V1 {
       byte[] descriptorData = global::System.Convert.FromBase64String(
           string.Concat(
             "CiFhdXRoemVkL2FwaS92MS9lcnJvcl9yZWFzb24ucHJvdG8SDmF1dGh6ZWQu",
-            "YXBpLnYxKscGCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
+            "YXBpLnYxKvAGCgtFcnJvclJlYXNvbhIcChhFUlJPUl9SRUFTT05fVU5TUEVD",
             "SUZJRUQQABIjCh9FUlJPUl9SRUFTT05fU0NIRU1BX1BBUlNFX0VSUk9SEAES",
             "IgoeRVJST1JfUkVBU09OX1NDSEVNQV9UWVBFX0VSUk9SEAISIwofRVJST1Jf",
             "UkVBU09OX1VOS05PV05fREVGSU5JVElPThADEi8KK0VSUk9SX1JFQVNPTl9V",
@@ -43,9 +43,10 @@ namespace Authzed.Api.V1 {
             "Q1VSU09SEA8SQAo8RVJST1JfUkVBU09OX1RPT19NQU5ZX1JFTEFUSU9OU0hJ",
             "UFNfRk9SX1RSQU5TQUNUSU9OQUxfREVMRVRFEBASLgoqRVJST1JfUkVBU09O",
             "X01BWF9SRUxBVElPTlNISVBfQ09OVEVYVF9TSVpFEBESMQotRVJST1JfUkVB",
-            "U09OX0FUVEVNUFRfVE9fUkVDUkVBVEVfUkVMQVRJT05TSElQEBJCSAoSY29t",
-            "LmF1dGh6ZWQuYXBpLnYxWjJnaXRodWIuY29tL2F1dGh6ZWQvYXV0aHplZC1n",
-            "by9wcm90by9hdXRoemVkL2FwaS92MWIGcHJvdG8z"));
+            "U09OX0FUVEVNUFRfVE9fUkVDUkVBVEVfUkVMQVRJT05TSElQEBISJwojRVJS",
+            "T1JfUkVBU09OX01BWElNVU1fREVQVEhfRVhDRUVERUQQE0JIChJjb20uYXV0",
+            "aHplZC5hcGkudjFaMmdpdGh1Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3By",
+            "b3RvL2F1dGh6ZWQvYXBpL3YxYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Authzed.Api.V1.ErrorReason), }, null, null));
@@ -340,6 +341,24 @@ namespace Authzed.Api.V1 {
     ///     }
     /// </summary>
     [pbr::OriginalName("ERROR_REASON_ATTEMPT_TO_RECREATE_RELATIONSHIP")] AttemptToRecreateRelationship = 18,
+    /// <summary>
+    /// The request failed because it caused the maximum depth allowed to be
+    /// exceeded. This typically indicates that there is a circular data traversal
+    /// somewhere in the schema, but can also be raised if the data traversal is simply
+    /// too deep.
+    ///
+    /// Example of an ErrorInfo:
+    ///
+    ///     {
+    ///       "reason": "ERROR_REASON_MAXIMUM_DEPTH_EXCEEDED",
+    ///       "domain": "authzed.com",
+    ///       "metadata": {
+    ///         "maximum_depth_allowed": "50",
+    ///         ... additional fields based on request type ...
+    ///       }
+    ///     }
+    /// </summary>
+    [pbr::OriginalName("ERROR_REASON_MAXIMUM_DEPTH_EXCEEDED")] MaximumDepthExceeded = 19,
   }
 
   #endregion

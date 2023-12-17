@@ -57,6 +57,10 @@ namespace Authzed.Api.V1 {
     static readonly grpc::Marshaller<global::Authzed.Api.V1.BulkExportRelationshipsRequest> __Marshaller_authzed_api_v1_BulkExportRelationshipsRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.BulkExportRelationshipsRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Authzed.Api.V1.BulkExportRelationshipsResponse> __Marshaller_authzed_api_v1_BulkExportRelationshipsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.BulkExportRelationshipsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.BulkCheckPermissionRequest> __Marshaller_authzed_api_v1_BulkCheckPermissionRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.BulkCheckPermissionRequest.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Authzed.Api.V1.BulkCheckPermissionResponse> __Marshaller_authzed_api_v1_BulkCheckPermissionResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Authzed.Api.V1.BulkCheckPermissionResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Authzed.Api.V1.BulkImportRelationshipsRequest, global::Authzed.Api.V1.BulkImportRelationshipsResponse> __Method_BulkImportRelationships = new grpc::Method<global::Authzed.Api.V1.BulkImportRelationshipsRequest, global::Authzed.Api.V1.BulkImportRelationshipsResponse>(
@@ -73,6 +77,14 @@ namespace Authzed.Api.V1 {
         "BulkExportRelationships",
         __Marshaller_authzed_api_v1_BulkExportRelationshipsRequest,
         __Marshaller_authzed_api_v1_BulkExportRelationshipsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Authzed.Api.V1.BulkCheckPermissionRequest, global::Authzed.Api.V1.BulkCheckPermissionResponse> __Method_BulkCheckPermission = new grpc::Method<global::Authzed.Api.V1.BulkCheckPermissionRequest, global::Authzed.Api.V1.BulkCheckPermissionResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "BulkCheckPermission",
+        __Marshaller_authzed_api_v1_BulkCheckPermissionRequest,
+        __Marshaller_authzed_api_v1_BulkCheckPermissionResponse);
 
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
@@ -115,6 +127,12 @@ namespace Authzed.Api.V1 {
       /// <returns>A task indicating completion of the handler.</returns>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       public virtual global::System.Threading.Tasks.Task BulkExportRelationships(global::Authzed.Api.V1.BulkExportRelationshipsRequest request, grpc::IServerStreamWriter<global::Authzed.Api.V1.BulkExportRelationshipsResponse> responseStream, grpc::ServerCallContext context)
+      {
+        throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
+      }
+
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::System.Threading.Tasks.Task<global::Authzed.Api.V1.BulkCheckPermissionResponse> BulkCheckPermission(global::Authzed.Api.V1.BulkCheckPermissionRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -214,6 +232,26 @@ namespace Authzed.Api.V1 {
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_BulkExportRelationships, null, options, request);
       }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.BulkCheckPermissionResponse BulkCheckPermission(global::Authzed.Api.V1.BulkCheckPermissionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BulkCheckPermission(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Authzed.Api.V1.BulkCheckPermissionResponse BulkCheckPermission(global::Authzed.Api.V1.BulkCheckPermissionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_BulkCheckPermission, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.BulkCheckPermissionResponse> BulkCheckPermissionAsync(global::Authzed.Api.V1.BulkCheckPermissionRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return BulkCheckPermissionAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Authzed.Api.V1.BulkCheckPermissionResponse> BulkCheckPermissionAsync(global::Authzed.Api.V1.BulkCheckPermissionRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_BulkCheckPermission, null, options, request);
+      }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
       protected override ExperimentalServiceClient NewInstance(ClientBaseConfiguration configuration)
@@ -229,7 +267,8 @@ namespace Authzed.Api.V1 {
     {
       return grpc::ServerServiceDefinition.CreateBuilder()
           .AddMethod(__Method_BulkImportRelationships, serviceImpl.BulkImportRelationships)
-          .AddMethod(__Method_BulkExportRelationships, serviceImpl.BulkExportRelationships).Build();
+          .AddMethod(__Method_BulkExportRelationships, serviceImpl.BulkExportRelationships)
+          .AddMethod(__Method_BulkCheckPermission, serviceImpl.BulkCheckPermission).Build();
     }
 
     /// <summary>Register service method with a service binder with or without implementation. Useful when customizing the service binding logic.
@@ -241,6 +280,7 @@ namespace Authzed.Api.V1 {
     {
       serviceBinder.AddMethod(__Method_BulkImportRelationships, serviceImpl == null ? null : new grpc::ClientStreamingServerMethod<global::Authzed.Api.V1.BulkImportRelationshipsRequest, global::Authzed.Api.V1.BulkImportRelationshipsResponse>(serviceImpl.BulkImportRelationships));
       serviceBinder.AddMethod(__Method_BulkExportRelationships, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Authzed.Api.V1.BulkExportRelationshipsRequest, global::Authzed.Api.V1.BulkExportRelationshipsResponse>(serviceImpl.BulkExportRelationships));
+      serviceBinder.AddMethod(__Method_BulkCheckPermission, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Authzed.Api.V1.BulkCheckPermissionRequest, global::Authzed.Api.V1.BulkCheckPermissionResponse>(serviceImpl.BulkCheckPermission));
     }
 
   }

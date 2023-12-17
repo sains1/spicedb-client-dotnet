@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -7,16 +7,16 @@
     <IsPackable>true</IsPackable>
     <EnablePackageValidation>true</EnablePackageValidation>
     <PackageId>sains1.SpiceDbClient</PackageId>
-    <PackageVersion>1.22.2</PackageVersion>
+    <PackageVersion>1.25.0</PackageVersion>
     <PackageTags>spicedb</PackageTags>
     <Description>SpiceDB grpc client</Description>
     <RepositoryUrl>https://github.com/sains1/spicedb-client-dotnet</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Google.Protobuf" Version="3.23.3" />
+    <PackageReference Include="Google.Protobuf" Version="3.25.1" />
     <PackageReference Include="Grpc.Core" Version="2.46.6" />
-    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.54.0" />
+    <PackageReference Include="Grpc.Net.ClientFactory" Version="2.59.0" />
   </ItemGroup>
 
 </Project>

@@ -42,7 +42,7 @@ namespace Authzed.Api.V1 {
             "b3B0aW9uYWxfcmVsYXRpb24YAiABKAlCKvpCJ3IlKEAyIV4oW2Etel1bYS16",
             "MC05X117MSw2Mn1bYS16MC05XSk/JFIQb3B0aW9uYWxSZWxhdGlvbiLEAQoP",
             "T2JqZWN0UmVmZXJlbmNlEmkKC29iamVjdF90eXBlGAEgASgJQkj6QkVyQyiA",
-            "ATI+XihbYS16XVthLXowLTlfXXsxLDYxfVthLXowLTldLyk/W2Etel1bYS16",
+            "ATI+XihbYS16XVthLXowLTlfXXsxLDYxfVthLXowLTldLykqW2Etel1bYS16",
             "MC05X117MSw2Mn1bYS16MC05XSRSCm9iamVjdFR5cGUSRgoJb2JqZWN0X2lk",
             "GAIgASgJQin6QiZyJCiACDIfXigoW2EtekEtWjAtOS9ffFwtPStdezEsfSl8",
             "XCopJFIIb2JqZWN0SWQiKQoIWmVkVG9rZW4SHQoFdG9rZW4YASABKAlCB/pC",

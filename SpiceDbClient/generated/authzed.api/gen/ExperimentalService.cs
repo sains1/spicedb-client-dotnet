@@ -26,35 +26,70 @@ namespace Authzed.Api.V1 {
           string.Concat(
             "CilhdXRoemVkL2FwaS92MS9leHBlcmltZW50YWxfc2VydmljZS5wcm90bxIO",
             "YXV0aHplZC5hcGkudjEaHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8a",
-            "F3ZhbGlkYXRlL3ZhbGlkYXRlLnByb3RvGhlhdXRoemVkL2FwaS92MS9jb3Jl",
-            "LnByb3RvGidhdXRoemVkL2FwaS92MS9wZXJtaXNzaW9uX3NlcnZpY2UucHJv",
-            "dG8icwoeQnVsa0ltcG9ydFJlbGF0aW9uc2hpcHNSZXF1ZXN0ElEKDXJlbGF0",
-            "aW9uc2hpcHMYASADKAsyHC5hdXRoemVkLmFwaS52MS5SZWxhdGlvbnNoaXBC",
-            "DfpCCpIBByIFigECEAFSDXJlbGF0aW9uc2hpcHMiQAofQnVsa0ltcG9ydFJl",
-            "bGF0aW9uc2hpcHNSZXNwb25zZRIdCgpudW1fbG9hZGVkGAEgASgEUgludW1M",
-            "b2FkZWQi0wEKHkJ1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVxdWVzdBI9Cgtj",
-            "b25zaXN0ZW5jeRgBIAEoCzIbLmF1dGh6ZWQuYXBpLnYxLkNvbnNpc3RlbmN5",
-            "Ugtjb25zaXN0ZW5jeRIxCg5vcHRpb25hbF9saW1pdBgCIAEoDUIK+kIHKgUY",
-            "kE4oAFINb3B0aW9uYWxMaW1pdBI/Cg9vcHRpb25hbF9jdXJzb3IYAyABKAsy",
-            "Fi5hdXRoemVkLmFwaS52MS5DdXJzb3JSDm9wdGlvbmFsQ3Vyc29yIq0BCh9C",
-            "dWxrRXhwb3J0UmVsYXRpb25zaGlwc1Jlc3BvbnNlEkYKE2FmdGVyX3Jlc3Vs",
-            "dF9jdXJzb3IYASABKAsyFi5hdXRoemVkLmFwaS52MS5DdXJzb3JSEWFmdGVy",
-            "UmVzdWx0Q3Vyc29yEkIKDXJlbGF0aW9uc2hpcHMYAiADKAsyHC5hdXRoemVk",
-            "LmFwaS52MS5SZWxhdGlvbnNoaXBSDXJlbGF0aW9uc2hpcHMy/wIKE0V4cGVy",
-            "aW1lbnRhbFNlcnZpY2USsgEKF0J1bGtJbXBvcnRSZWxhdGlvbnNoaXBzEi4u",
-            "YXV0aHplZC5hcGkudjEuQnVsa0ltcG9ydFJlbGF0aW9uc2hpcHNSZXF1ZXN0",
-            "Gi8uYXV0aHplZC5hcGkudjEuQnVsa0ltcG9ydFJlbGF0aW9uc2hpcHNSZXNw",
-            "b25zZSI0gtPkkwIuIikvdjEvZXhwZXJpbWVudGFsL3JlbGF0aW9uc2hpcHMv",
-            "YnVsa2ltcG9ydDoBKigBErIBChdCdWxrRXhwb3J0UmVsYXRpb25zaGlwcxIu",
-            "LmF1dGh6ZWQuYXBpLnYxLkJ1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVxdWVz",
-            "dBovLmF1dGh6ZWQuYXBpLnYxLkJ1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVz",
-            "cG9uc2UiNILT5JMCLiIpL3YxL2V4cGVyaW1lbnRhbC9yZWxhdGlvbnNoaXBz",
-            "L2J1bGtleHBvcnQ6ASowAUJIChJjb20uYXV0aHplZC5hcGkudjFaMmdpdGh1",
-            "Yi5jb20vYXV0aHplZC9hdXRoemVkLWdvL3Byb3RvL2F1dGh6ZWQvYXBpL3Yx",
-            "YgZwcm90bzM="));
+            "F3ZhbGlkYXRlL3ZhbGlkYXRlLnByb3RvGhxnb29nbGUvcHJvdG9idWYvc3Ry",
+            "dWN0LnByb3RvGhdnb29nbGUvcnBjL3N0YXR1cy5wcm90bxoZYXV0aHplZC9h",
+            "cGkvdjEvY29yZS5wcm90bxonYXV0aHplZC9hcGkvdjEvcGVybWlzc2lvbl9z",
+            "ZXJ2aWNlLnByb3RvIrABChpCdWxrQ2hlY2tQZXJtaXNzaW9uUmVxdWVzdBI9",
+            "Cgtjb25zaXN0ZW5jeRgBIAEoCzIbLmF1dGh6ZWQuYXBpLnYxLkNvbnNpc3Rl",
+            "bmN5Ugtjb25zaXN0ZW5jeRJTCgVpdGVtcxgCIAMoCzIuLmF1dGh6ZWQuYXBp",
+            "LnYxLkJ1bGtDaGVja1Blcm1pc3Npb25SZXF1ZXN0SXRlbUIN+kIKkgEHIgWK",
+            "AQIQAVIFaXRlbXMitgIKHkJ1bGtDaGVja1Blcm1pc3Npb25SZXF1ZXN0SXRl",
+            "bRJFCghyZXNvdXJjZRgBIAEoCzIfLmF1dGh6ZWQuYXBpLnYxLk9iamVjdFJl",
+            "ZmVyZW5jZUII+kIFigECEAFSCHJlc291cmNlEkoKCnBlcm1pc3Npb24YAiAB",
+            "KAlCKvpCJ3IlKEAyIV4oW2Etel1bYS16MC05X117MSw2Mn1bYS16MC05XSk/",
+            "JFIKcGVybWlzc2lvbhJECgdzdWJqZWN0GAMgASgLMiAuYXV0aHplZC5hcGku",
+            "djEuU3ViamVjdFJlZmVyZW5jZUII+kIFigECEAFSB3N1YmplY3QSOwoHY29u",
+            "dGV4dBgEIAEoCzIXLmdvb2dsZS5wcm90b2J1Zi5TdHJ1Y3RCCPpCBYoBAhAA",
+            "Ugdjb250ZXh0Iq4BChtCdWxrQ2hlY2tQZXJtaXNzaW9uUmVzcG9uc2USQQoK",
+            "Y2hlY2tlZF9hdBgBIAEoCzIYLmF1dGh6ZWQuYXBpLnYxLlplZFRva2VuQgj6",
+            "QgWKAQIQAFIJY2hlY2tlZEF0EkwKBXBhaXJzGAIgAygLMicuYXV0aHplZC5h",
+            "cGkudjEuQnVsa0NoZWNrUGVybWlzc2lvblBhaXJCDfpCCpIBByIFigECEAFS",
+            "BXBhaXJzIuIBChdCdWxrQ2hlY2tQZXJtaXNzaW9uUGFpchJICgdyZXF1ZXN0",
+            "GAEgASgLMi4uYXV0aHplZC5hcGkudjEuQnVsa0NoZWNrUGVybWlzc2lvblJl",
+            "cXVlc3RJdGVtUgdyZXF1ZXN0EkUKBGl0ZW0YAiABKAsyLy5hdXRoemVkLmFw",
+            "aS52MS5CdWxrQ2hlY2tQZXJtaXNzaW9uUmVzcG9uc2VJdGVtSABSBGl0ZW0S",
+            "KgoFZXJyb3IYAyABKAsyEi5nb29nbGUucnBjLlN0YXR1c0gAUgVlcnJvckIK",
+            "CghyZXNwb25zZSLqAQofQnVsa0NoZWNrUGVybWlzc2lvblJlc3BvbnNlSXRl",
+            "bRJqCg5wZXJtaXNzaW9uc2hpcBgBIAEoDjI2LmF1dGh6ZWQuYXBpLnYxLkNo",
+            "ZWNrUGVybWlzc2lvblJlc3BvbnNlLlBlcm1pc3Npb25zaGlwQgr6QgeCAQQQ",
+            "ASAAUg5wZXJtaXNzaW9uc2hpcBJbChNwYXJ0aWFsX2NhdmVhdF9pbmZvGAIg",
+            "ASgLMiEuYXV0aHplZC5hcGkudjEuUGFydGlhbENhdmVhdEluZm9CCPpCBYoB",
+            "AhAAUhFwYXJ0aWFsQ2F2ZWF0SW5mbyJzCh5CdWxrSW1wb3J0UmVsYXRpb25z",
+            "aGlwc1JlcXVlc3QSUQoNcmVsYXRpb25zaGlwcxgBIAMoCzIcLmF1dGh6ZWQu",
+            "YXBpLnYxLlJlbGF0aW9uc2hpcEIN+kIKkgEHIgWKAQIQAVINcmVsYXRpb25z",
+            "aGlwcyJACh9CdWxrSW1wb3J0UmVsYXRpb25zaGlwc1Jlc3BvbnNlEh0KCm51",
+            "bV9sb2FkZWQYASABKARSCW51bUxvYWRlZCLTAQoeQnVsa0V4cG9ydFJlbGF0",
+            "aW9uc2hpcHNSZXF1ZXN0Ej0KC2NvbnNpc3RlbmN5GAEgASgLMhsuYXV0aHpl",
+            "ZC5hcGkudjEuQ29uc2lzdGVuY3lSC2NvbnNpc3RlbmN5EjEKDm9wdGlvbmFs",
+            "X2xpbWl0GAIgASgNQgr6QgcqBRiQTigAUg1vcHRpb25hbExpbWl0Ej8KD29w",
+            "dGlvbmFsX2N1cnNvchgDIAEoCzIWLmF1dGh6ZWQuYXBpLnYxLkN1cnNvclIO",
+            "b3B0aW9uYWxDdXJzb3IirQEKH0J1bGtFeHBvcnRSZWxhdGlvbnNoaXBzUmVz",
+            "cG9uc2USRgoTYWZ0ZXJfcmVzdWx0X2N1cnNvchgBIAEoCzIWLmF1dGh6ZWQu",
+            "YXBpLnYxLkN1cnNvclIRYWZ0ZXJSZXN1bHRDdXJzb3ISQgoNcmVsYXRpb25z",
+            "aGlwcxgCIAMoCzIcLmF1dGh6ZWQuYXBpLnYxLlJlbGF0aW9uc2hpcFINcmVs",
+            "YXRpb25zaGlwczKtBAoTRXhwZXJpbWVudGFsU2VydmljZRKyAQoXQnVsa0lt",
+            "cG9ydFJlbGF0aW9uc2hpcHMSLi5hdXRoemVkLmFwaS52MS5CdWxrSW1wb3J0",
+            "UmVsYXRpb25zaGlwc1JlcXVlc3QaLy5hdXRoemVkLmFwaS52MS5CdWxrSW1w",
+            "b3J0UmVsYXRpb25zaGlwc1Jlc3BvbnNlIjSC0+STAi4iKS92MS9leHBlcmlt",
+            "ZW50YWwvcmVsYXRpb25zaGlwcy9idWxraW1wb3J0OgEqKAESsgEKF0J1bGtF",
+            "eHBvcnRSZWxhdGlvbnNoaXBzEi4uYXV0aHplZC5hcGkudjEuQnVsa0V4cG9y",
+            "dFJlbGF0aW9uc2hpcHNSZXF1ZXN0Gi8uYXV0aHplZC5hcGkudjEuQnVsa0V4",
+            "cG9ydFJlbGF0aW9uc2hpcHNSZXNwb25zZSI0gtPkkwIuIikvdjEvZXhwZXJp",
+            "bWVudGFsL3JlbGF0aW9uc2hpcHMvYnVsa2V4cG9ydDoBKjABEqsBChNCdWxr",
+            "Q2hlY2tQZXJtaXNzaW9uEiouYXV0aHplZC5hcGkudjEuQnVsa0NoZWNrUGVy",
+            "bWlzc2lvblJlcXVlc3QaKy5hdXRoemVkLmFwaS52MS5CdWxrQ2hlY2tQZXJt",
+            "aXNzaW9uUmVzcG9uc2UiO4LT5JMCNSIwL3YxL2V4cGVyaW1lbnRhbC9wZXJt",
+            "aXNzaW9ucy9idWxrY2hlY2twZXJtaXNzaW9uOgEqQkgKEmNvbS5hdXRoemVk",
+            "LmFwaS52MVoyZ2l0aHViLmNvbS9hdXRoemVkL2F1dGh6ZWQtZ28vcHJvdG8v",
+            "YXV0aHplZC9hcGkvdjFiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Validate.ValidateReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.StructReflection.Descriptor, global::Google.Rpc.StatusReflection.Descriptor, global::Authzed.Api.V1.CoreReflection.Descriptor, global::Authzed.Api.V1.PermissionServiceReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkCheckPermissionRequest), global::Authzed.Api.V1.BulkCheckPermissionRequest.Parser, new[]{ "Consistency", "Items" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkCheckPermissionRequestItem), global::Authzed.Api.V1.BulkCheckPermissionRequestItem.Parser, new[]{ "Resource", "Permission", "Subject", "Context" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkCheckPermissionResponse), global::Authzed.Api.V1.BulkCheckPermissionResponse.Parser, new[]{ "CheckedAt", "Pairs" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkCheckPermissionPair), global::Authzed.Api.V1.BulkCheckPermissionPair.Parser, new[]{ "Request", "Item", "Error" }, new[]{ "Response" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkCheckPermissionResponseItem), global::Authzed.Api.V1.BulkCheckPermissionResponseItem.Parser, new[]{ "Permissionship", "PartialCaveatInfo" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkImportRelationshipsRequest), global::Authzed.Api.V1.BulkImportRelationshipsRequest.Parser, new[]{ "Relationships" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkImportRelationshipsResponse), global::Authzed.Api.V1.BulkImportRelationshipsResponse.Parser, new[]{ "NumLoaded" }, null, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Authzed.Api.V1.BulkExportRelationshipsRequest), global::Authzed.Api.V1.BulkExportRelationshipsRequest.Parser, new[]{ "Consistency", "OptionalLimit", "OptionalCursor" }, null, null, null, null),
@@ -65,6 +100,1352 @@ namespace Authzed.Api.V1 {
 
   }
   #region Messages
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BulkCheckPermissionRequest : pb::IMessage<BulkCheckPermissionRequest>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BulkCheckPermissionRequest> _parser = new pb::MessageParser<BulkCheckPermissionRequest>(() => new BulkCheckPermissionRequest());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BulkCheckPermissionRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[0]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequest(BulkCheckPermissionRequest other) : this() {
+      consistency_ = other.consistency_ != null ? other.consistency_.Clone() : null;
+      items_ = other.items_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequest Clone() {
+      return new BulkCheckPermissionRequest(this);
+    }
+
+    /// <summary>Field number for the "consistency" field.</summary>
+    public const int ConsistencyFieldNumber = 1;
+    private global::Authzed.Api.V1.Consistency consistency_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.Consistency Consistency {
+      get { return consistency_; }
+      set {
+        consistency_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "items" field.</summary>
+    public const int ItemsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Authzed.Api.V1.BulkCheckPermissionRequestItem> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(18, global::Authzed.Api.V1.BulkCheckPermissionRequestItem.Parser);
+    private readonly pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionRequestItem> items_ = new pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionRequestItem>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionRequestItem> Items {
+      get { return items_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BulkCheckPermissionRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BulkCheckPermissionRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Consistency, other.Consistency)) return false;
+      if(!items_.Equals(other.items_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (consistency_ != null) hash ^= Consistency.GetHashCode();
+      hash ^= items_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (consistency_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Consistency);
+      }
+      items_.WriteTo(output, _repeated_items_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (consistency_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Consistency);
+      }
+      items_.WriteTo(ref output, _repeated_items_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (consistency_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Consistency);
+      }
+      size += items_.CalculateSize(_repeated_items_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BulkCheckPermissionRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.consistency_ != null) {
+        if (consistency_ == null) {
+          Consistency = new global::Authzed.Api.V1.Consistency();
+        }
+        Consistency.MergeFrom(other.Consistency);
+      }
+      items_.Add(other.items_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (consistency_ == null) {
+              Consistency = new global::Authzed.Api.V1.Consistency();
+            }
+            input.ReadMessage(Consistency);
+            break;
+          }
+          case 18: {
+            items_.AddEntriesFrom(input, _repeated_items_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (consistency_ == null) {
+              Consistency = new global::Authzed.Api.V1.Consistency();
+            }
+            input.ReadMessage(Consistency);
+            break;
+          }
+          case 18: {
+            items_.AddEntriesFrom(ref input, _repeated_items_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BulkCheckPermissionRequestItem : pb::IMessage<BulkCheckPermissionRequestItem>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BulkCheckPermissionRequestItem> _parser = new pb::MessageParser<BulkCheckPermissionRequestItem>(() => new BulkCheckPermissionRequestItem());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BulkCheckPermissionRequestItem> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[1]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequestItem() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequestItem(BulkCheckPermissionRequestItem other) : this() {
+      resource_ = other.resource_ != null ? other.resource_.Clone() : null;
+      permission_ = other.permission_;
+      subject_ = other.subject_ != null ? other.subject_.Clone() : null;
+      context_ = other.context_ != null ? other.context_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionRequestItem Clone() {
+      return new BulkCheckPermissionRequestItem(this);
+    }
+
+    /// <summary>Field number for the "resource" field.</summary>
+    public const int ResourceFieldNumber = 1;
+    private global::Authzed.Api.V1.ObjectReference resource_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.ObjectReference Resource {
+      get { return resource_; }
+      set {
+        resource_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "permission" field.</summary>
+    public const int PermissionFieldNumber = 2;
+    private string permission_ = "";
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public string Permission {
+      get { return permission_; }
+      set {
+        permission_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "subject" field.</summary>
+    public const int SubjectFieldNumber = 3;
+    private global::Authzed.Api.V1.SubjectReference subject_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.SubjectReference Subject {
+      get { return subject_; }
+      set {
+        subject_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "context" field.</summary>
+    public const int ContextFieldNumber = 4;
+    private global::Google.Protobuf.WellKnownTypes.Struct context_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Protobuf.WellKnownTypes.Struct Context {
+      get { return context_; }
+      set {
+        context_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BulkCheckPermissionRequestItem);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BulkCheckPermissionRequestItem other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Resource, other.Resource)) return false;
+      if (Permission != other.Permission) return false;
+      if (!object.Equals(Subject, other.Subject)) return false;
+      if (!object.Equals(Context, other.Context)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (resource_ != null) hash ^= Resource.GetHashCode();
+      if (Permission.Length != 0) hash ^= Permission.GetHashCode();
+      if (subject_ != null) hash ^= Subject.GetHashCode();
+      if (context_ != null) hash ^= Context.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (resource_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Resource);
+      }
+      if (Permission.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Permission);
+      }
+      if (subject_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Subject);
+      }
+      if (context_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Context);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (resource_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Resource);
+      }
+      if (Permission.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Permission);
+      }
+      if (subject_ != null) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Subject);
+      }
+      if (context_ != null) {
+        output.WriteRawTag(34);
+        output.WriteMessage(Context);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (resource_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Resource);
+      }
+      if (Permission.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Permission);
+      }
+      if (subject_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Subject);
+      }
+      if (context_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Context);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BulkCheckPermissionRequestItem other) {
+      if (other == null) {
+        return;
+      }
+      if (other.resource_ != null) {
+        if (resource_ == null) {
+          Resource = new global::Authzed.Api.V1.ObjectReference();
+        }
+        Resource.MergeFrom(other.Resource);
+      }
+      if (other.Permission.Length != 0) {
+        Permission = other.Permission;
+      }
+      if (other.subject_ != null) {
+        if (subject_ == null) {
+          Subject = new global::Authzed.Api.V1.SubjectReference();
+        }
+        Subject.MergeFrom(other.Subject);
+      }
+      if (other.context_ != null) {
+        if (context_ == null) {
+          Context = new global::Google.Protobuf.WellKnownTypes.Struct();
+        }
+        Context.MergeFrom(other.Context);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (resource_ == null) {
+              Resource = new global::Authzed.Api.V1.ObjectReference();
+            }
+            input.ReadMessage(Resource);
+            break;
+          }
+          case 18: {
+            Permission = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (subject_ == null) {
+              Subject = new global::Authzed.Api.V1.SubjectReference();
+            }
+            input.ReadMessage(Subject);
+            break;
+          }
+          case 34: {
+            if (context_ == null) {
+              Context = new global::Google.Protobuf.WellKnownTypes.Struct();
+            }
+            input.ReadMessage(Context);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (resource_ == null) {
+              Resource = new global::Authzed.Api.V1.ObjectReference();
+            }
+            input.ReadMessage(Resource);
+            break;
+          }
+          case 18: {
+            Permission = input.ReadString();
+            break;
+          }
+          case 26: {
+            if (subject_ == null) {
+              Subject = new global::Authzed.Api.V1.SubjectReference();
+            }
+            input.ReadMessage(Subject);
+            break;
+          }
+          case 34: {
+            if (context_ == null) {
+              Context = new global::Google.Protobuf.WellKnownTypes.Struct();
+            }
+            input.ReadMessage(Context);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BulkCheckPermissionResponse : pb::IMessage<BulkCheckPermissionResponse>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BulkCheckPermissionResponse> _parser = new pb::MessageParser<BulkCheckPermissionResponse>(() => new BulkCheckPermissionResponse());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BulkCheckPermissionResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[2]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponse(BulkCheckPermissionResponse other) : this() {
+      checkedAt_ = other.checkedAt_ != null ? other.checkedAt_.Clone() : null;
+      pairs_ = other.pairs_.Clone();
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponse Clone() {
+      return new BulkCheckPermissionResponse(this);
+    }
+
+    /// <summary>Field number for the "checked_at" field.</summary>
+    public const int CheckedAtFieldNumber = 1;
+    private global::Authzed.Api.V1.ZedToken checkedAt_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.ZedToken CheckedAt {
+      get { return checkedAt_; }
+      set {
+        checkedAt_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "pairs" field.</summary>
+    public const int PairsFieldNumber = 2;
+    private static readonly pb::FieldCodec<global::Authzed.Api.V1.BulkCheckPermissionPair> _repeated_pairs_codec
+        = pb::FieldCodec.ForMessage(18, global::Authzed.Api.V1.BulkCheckPermissionPair.Parser);
+    private readonly pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionPair> pairs_ = new pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionPair>();
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public pbc::RepeatedField<global::Authzed.Api.V1.BulkCheckPermissionPair> Pairs {
+      get { return pairs_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BulkCheckPermissionResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BulkCheckPermissionResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(CheckedAt, other.CheckedAt)) return false;
+      if(!pairs_.Equals(other.pairs_)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (checkedAt_ != null) hash ^= CheckedAt.GetHashCode();
+      hash ^= pairs_.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (checkedAt_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(CheckedAt);
+      }
+      pairs_.WriteTo(output, _repeated_pairs_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (checkedAt_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(CheckedAt);
+      }
+      pairs_.WriteTo(ref output, _repeated_pairs_codec);
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (checkedAt_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(CheckedAt);
+      }
+      size += pairs_.CalculateSize(_repeated_pairs_codec);
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BulkCheckPermissionResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.checkedAt_ != null) {
+        if (checkedAt_ == null) {
+          CheckedAt = new global::Authzed.Api.V1.ZedToken();
+        }
+        CheckedAt.MergeFrom(other.CheckedAt);
+      }
+      pairs_.Add(other.pairs_);
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (checkedAt_ == null) {
+              CheckedAt = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(CheckedAt);
+            break;
+          }
+          case 18: {
+            pairs_.AddEntriesFrom(input, _repeated_pairs_codec);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (checkedAt_ == null) {
+              CheckedAt = new global::Authzed.Api.V1.ZedToken();
+            }
+            input.ReadMessage(CheckedAt);
+            break;
+          }
+          case 18: {
+            pairs_.AddEntriesFrom(ref input, _repeated_pairs_codec);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BulkCheckPermissionPair : pb::IMessage<BulkCheckPermissionPair>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BulkCheckPermissionPair> _parser = new pb::MessageParser<BulkCheckPermissionPair>(() => new BulkCheckPermissionPair());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BulkCheckPermissionPair> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionPair() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionPair(BulkCheckPermissionPair other) : this() {
+      request_ = other.request_ != null ? other.request_.Clone() : null;
+      switch (other.ResponseCase) {
+        case ResponseOneofCase.Item:
+          Item = other.Item.Clone();
+          break;
+        case ResponseOneofCase.Error:
+          Error = other.Error.Clone();
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionPair Clone() {
+      return new BulkCheckPermissionPair(this);
+    }
+
+    /// <summary>Field number for the "request" field.</summary>
+    public const int RequestFieldNumber = 1;
+    private global::Authzed.Api.V1.BulkCheckPermissionRequestItem request_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.BulkCheckPermissionRequestItem Request {
+      get { return request_; }
+      set {
+        request_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "item" field.</summary>
+    public const int ItemFieldNumber = 2;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.BulkCheckPermissionResponseItem Item {
+      get { return responseCase_ == ResponseOneofCase.Item ? (global::Authzed.Api.V1.BulkCheckPermissionResponseItem) response_ : null; }
+      set {
+        response_ = value;
+        responseCase_ = value == null ? ResponseOneofCase.None : ResponseOneofCase.Item;
+      }
+    }
+
+    /// <summary>Field number for the "error" field.</summary>
+    public const int ErrorFieldNumber = 3;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Google.Rpc.Status Error {
+      get { return responseCase_ == ResponseOneofCase.Error ? (global::Google.Rpc.Status) response_ : null; }
+      set {
+        response_ = value;
+        responseCase_ = value == null ? ResponseOneofCase.None : ResponseOneofCase.Error;
+      }
+    }
+
+    private object response_;
+    /// <summary>Enum of possible cases for the "response" oneof.</summary>
+    public enum ResponseOneofCase {
+      None = 0,
+      Item = 2,
+      Error = 3,
+    }
+    private ResponseOneofCase responseCase_ = ResponseOneofCase.None;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public ResponseOneofCase ResponseCase {
+      get { return responseCase_; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void ClearResponse() {
+      responseCase_ = ResponseOneofCase.None;
+      response_ = null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BulkCheckPermissionPair);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BulkCheckPermissionPair other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (!object.Equals(Request, other.Request)) return false;
+      if (!object.Equals(Item, other.Item)) return false;
+      if (!object.Equals(Error, other.Error)) return false;
+      if (ResponseCase != other.ResponseCase) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (request_ != null) hash ^= Request.GetHashCode();
+      if (responseCase_ == ResponseOneofCase.Item) hash ^= Item.GetHashCode();
+      if (responseCase_ == ResponseOneofCase.Error) hash ^= Error.GetHashCode();
+      hash ^= (int) responseCase_;
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (request_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Request);
+      }
+      if (responseCase_ == ResponseOneofCase.Item) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Item);
+      }
+      if (responseCase_ == ResponseOneofCase.Error) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (request_ != null) {
+        output.WriteRawTag(10);
+        output.WriteMessage(Request);
+      }
+      if (responseCase_ == ResponseOneofCase.Item) {
+        output.WriteRawTag(18);
+        output.WriteMessage(Item);
+      }
+      if (responseCase_ == ResponseOneofCase.Error) {
+        output.WriteRawTag(26);
+        output.WriteMessage(Error);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (request_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Request);
+      }
+      if (responseCase_ == ResponseOneofCase.Item) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Item);
+      }
+      if (responseCase_ == ResponseOneofCase.Error) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(Error);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BulkCheckPermissionPair other) {
+      if (other == null) {
+        return;
+      }
+      if (other.request_ != null) {
+        if (request_ == null) {
+          Request = new global::Authzed.Api.V1.BulkCheckPermissionRequestItem();
+        }
+        Request.MergeFrom(other.Request);
+      }
+      switch (other.ResponseCase) {
+        case ResponseOneofCase.Item:
+          if (Item == null) {
+            Item = new global::Authzed.Api.V1.BulkCheckPermissionResponseItem();
+          }
+          Item.MergeFrom(other.Item);
+          break;
+        case ResponseOneofCase.Error:
+          if (Error == null) {
+            Error = new global::Google.Rpc.Status();
+          }
+          Error.MergeFrom(other.Error);
+          break;
+      }
+
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 10: {
+            if (request_ == null) {
+              Request = new global::Authzed.Api.V1.BulkCheckPermissionRequestItem();
+            }
+            input.ReadMessage(Request);
+            break;
+          }
+          case 18: {
+            global::Authzed.Api.V1.BulkCheckPermissionResponseItem subBuilder = new global::Authzed.Api.V1.BulkCheckPermissionResponseItem();
+            if (responseCase_ == ResponseOneofCase.Item) {
+              subBuilder.MergeFrom(Item);
+            }
+            input.ReadMessage(subBuilder);
+            Item = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
+            if (responseCase_ == ResponseOneofCase.Error) {
+              subBuilder.MergeFrom(Error);
+            }
+            input.ReadMessage(subBuilder);
+            Error = subBuilder;
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 10: {
+            if (request_ == null) {
+              Request = new global::Authzed.Api.V1.BulkCheckPermissionRequestItem();
+            }
+            input.ReadMessage(Request);
+            break;
+          }
+          case 18: {
+            global::Authzed.Api.V1.BulkCheckPermissionResponseItem subBuilder = new global::Authzed.Api.V1.BulkCheckPermissionResponseItem();
+            if (responseCase_ == ResponseOneofCase.Item) {
+              subBuilder.MergeFrom(Item);
+            }
+            input.ReadMessage(subBuilder);
+            Item = subBuilder;
+            break;
+          }
+          case 26: {
+            global::Google.Rpc.Status subBuilder = new global::Google.Rpc.Status();
+            if (responseCase_ == ResponseOneofCase.Error) {
+              subBuilder.MergeFrom(Error);
+            }
+            input.ReadMessage(subBuilder);
+            Error = subBuilder;
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
+  [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
+  public sealed partial class BulkCheckPermissionResponseItem : pb::IMessage<BulkCheckPermissionResponseItem>
+  #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      , pb::IBufferMessage
+  #endif
+  {
+    private static readonly pb::MessageParser<BulkCheckPermissionResponseItem> _parser = new pb::MessageParser<BulkCheckPermissionResponseItem>(() => new BulkCheckPermissionResponseItem());
+    private pb::UnknownFieldSet _unknownFields;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pb::MessageParser<BulkCheckPermissionResponseItem> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[4]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponseItem() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponseItem(BulkCheckPermissionResponseItem other) : this() {
+      permissionship_ = other.permissionship_;
+      partialCaveatInfo_ = other.partialCaveatInfo_ != null ? other.partialCaveatInfo_.Clone() : null;
+      _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public BulkCheckPermissionResponseItem Clone() {
+      return new BulkCheckPermissionResponseItem(this);
+    }
+
+    /// <summary>Field number for the "permissionship" field.</summary>
+    public const int PermissionshipFieldNumber = 1;
+    private global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship permissionship_ = global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship Permissionship {
+      get { return permissionship_; }
+      set {
+        permissionship_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "partial_caveat_info" field.</summary>
+    public const int PartialCaveatInfoFieldNumber = 2;
+    private global::Authzed.Api.V1.PartialCaveatInfo partialCaveatInfo_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public global::Authzed.Api.V1.PartialCaveatInfo PartialCaveatInfo {
+      get { return partialCaveatInfo_; }
+      set {
+        partialCaveatInfo_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override bool Equals(object other) {
+      return Equals(other as BulkCheckPermissionResponseItem);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public bool Equals(BulkCheckPermissionResponseItem other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Permissionship != other.Permissionship) return false;
+      if (!object.Equals(PartialCaveatInfo, other.PartialCaveatInfo)) return false;
+      return Equals(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Permissionship != global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified) hash ^= Permissionship.GetHashCode();
+      if (partialCaveatInfo_ != null) hash ^= PartialCaveatInfo.GetHashCode();
+      if (_unknownFields != null) {
+        hash ^= _unknownFields.GetHashCode();
+      }
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void WriteTo(pb::CodedOutputStream output) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      output.WriteRawMessage(this);
+    #else
+      if (Permissionship != global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Permissionship);
+      }
+      if (partialCaveatInfo_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PartialCaveatInfo);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(output);
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalWriteTo(ref pb::WriteContext output) {
+      if (Permissionship != global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) Permissionship);
+      }
+      if (partialCaveatInfo_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(PartialCaveatInfo);
+      }
+      if (_unknownFields != null) {
+        _unknownFields.WriteTo(ref output);
+      }
+    }
+    #endif
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public int CalculateSize() {
+      int size = 0;
+      if (Permissionship != global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Permissionship);
+      }
+      if (partialCaveatInfo_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(PartialCaveatInfo);
+      }
+      if (_unknownFields != null) {
+        size += _unknownFields.CalculateSize();
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(BulkCheckPermissionResponseItem other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Permissionship != global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship.Unspecified) {
+        Permissionship = other.Permissionship;
+      }
+      if (other.partialCaveatInfo_ != null) {
+        if (partialCaveatInfo_ == null) {
+          PartialCaveatInfo = new global::Authzed.Api.V1.PartialCaveatInfo();
+        }
+        PartialCaveatInfo.MergeFrom(other.PartialCaveatInfo);
+      }
+      _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    public void MergeFrom(pb::CodedInputStream input) {
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+      input.ReadRawMessage(this);
+    #else
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
+            break;
+          case 8: {
+            Permissionship = (global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            if (partialCaveatInfo_ == null) {
+              PartialCaveatInfo = new global::Authzed.Api.V1.PartialCaveatInfo();
+            }
+            input.ReadMessage(PartialCaveatInfo);
+            break;
+          }
+        }
+      }
+    #endif
+    }
+
+    #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
+    void pb::IBufferMessage.InternalMergeFrom(ref pb::ParseContext input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
+            break;
+          case 8: {
+            Permissionship = (global::Authzed.Api.V1.CheckPermissionResponse.Types.Permissionship) input.ReadEnum();
+            break;
+          }
+          case 18: {
+            if (partialCaveatInfo_ == null) {
+              PartialCaveatInfo = new global::Authzed.Api.V1.PartialCaveatInfo();
+            }
+            input.ReadMessage(PartialCaveatInfo);
+            break;
+          }
+        }
+      }
+    }
+    #endif
+
+  }
+
   /// <summary>
   /// BulkImportRelationshipsRequest represents one batch of the streaming
   /// BulkImportRelationships API. The maximum size is only limited by the backing
@@ -86,7 +1467,7 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[0]; }
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -269,7 +1650,7 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[1]; }
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -463,7 +1844,7 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[2]; }
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -762,7 +2143,7 @@ namespace Authzed.Api.V1 {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[3]; }
+      get { return global::Authzed.Api.V1.ExperimentalServiceReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
