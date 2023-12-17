@@ -1,6 +1,6 @@
-# SpiceDB Starter .NET
+# SpiceDB .NET
 
-SpiceDB Client for .NET generated from authzed protobuf definitions
+SpiceDB Client for .NET, generated from authzed protobuf definitions
 
 ## Getting Started
 
