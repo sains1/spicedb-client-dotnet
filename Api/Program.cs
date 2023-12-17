@@ -35,6 +35,15 @@ void ConfigureSpiceDbChannel(IServiceProvider provider, GrpcChannelOptions optio
 builder.Services.AddGrpcClient<PermissionsService.PermissionsServiceClient>(ConfigureSpiceDbGrpcClient)
     .ConfigureChannel(ConfigureSpiceDbChannel);
 
+builder.Services.AddGrpcClient<SchemaService.SchemaServiceClient>(ConfigureSpiceDbGrpcClient)
+    .ConfigureChannel(ConfigureSpiceDbChannel);
+
+builder.Services.AddGrpcClient<ExperimentalService.ExperimentalServiceClient>(ConfigureSpiceDbGrpcClient)
+    .ConfigureChannel(ConfigureSpiceDbChannel);
+
+builder.Services.AddGrpcClient<WatchService.WatchServiceClient>(ConfigureSpiceDbGrpcClient)
+    .ConfigureChannel(ConfigureSpiceDbChannel);
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
